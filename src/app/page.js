@@ -1,8 +1,3 @@
-
 export default function Home() {
-  return (
-   <>
-   <h1>s</h1>
-   </>
-  );
+  return <div>Home Page</div>;
 }
