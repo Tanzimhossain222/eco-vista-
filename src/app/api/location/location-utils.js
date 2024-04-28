@@ -113,7 +113,7 @@ function getLocations() {
 function getLocationByName(location) {
     if (!location) return null;
 
-    const found = data.find(
+    let found = data.find(
         (item) => item.location.toLowerCase() === location.toLowerCase()
     );
 
